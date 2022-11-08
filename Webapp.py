@@ -3,7 +3,7 @@ from Michi import Michi
 
 app = Flask(__name__, static_url_path='/static')
 
-@app.route('/index.html', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def home():
 	michi = Michi().generate_michi()
 	return render_template('index.html', archivo=michi['img'], descripcion=michi['title'])
