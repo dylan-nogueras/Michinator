@@ -22,9 +22,9 @@ E inspirado en mi otro proyecto de generar refranes: [Refranator](https://github
 
 ## Visualización
 
-Para acceder al generador de michis, se puede acceder a la carpeta Michinator y ejecutar desde consola:
+Para acceder al generador de michis, se puede acceder a la [página web](https://michinator.herokuapp.com/) o, en local, ir a la carpeta Michinator y ejecutar desde consola:
 
-`python3 Webapp.py`
+`gunicorn Webapp:app`
 
 ## Contribuciones
 
