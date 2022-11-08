@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta tags requeridos -->
+	<meta charset="utf-8">	
+	<title> Generador de michis </title>
+	
+</head>
+<body>
+	<a href="https://github.com/dylan-nogueras/Michinator">Generador de michis</a>
+	<br>
+	<img src="{{ url_for('static', filename=archivo) }}">
+	<p>{{ descripcion }}</p>
+	<form method="post">
+		<input type="submit" value="Generar michi">
+	</form>
+
+</body>
+</html> 

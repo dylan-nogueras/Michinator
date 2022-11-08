@@ -1,0 +1,14 @@
+[
+    {
+        "img": "michi.jpeg",
+        "title": "¡Es un michi!"
+    },
+    {
+        "img": "cute_cat.jpg",
+        "title": "Es un gatito amoroso"
+    },
+    {
+    	"img": "angry_cat.jpg",
+        "title": "Es un gato enfadado"
+    }
+]
